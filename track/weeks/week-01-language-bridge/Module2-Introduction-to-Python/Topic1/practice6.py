@@ -1,8 +1,9 @@
 # Read and convert the student details
-student_name =str(input("Enter the name:"))
-student_age=input("Enter the age:")
-student_age = int(student_age)
-course_rating = float(input("enter the rating:"))
+student_name=input("enter the name:")
+student_age=input("enter the age:")
+student_age=int(student_age)
+course_rating=input("enter the rating:")
+course_rating=float(course_rating)
 
 # Display the values
 print(f"Student: {student_name}")
