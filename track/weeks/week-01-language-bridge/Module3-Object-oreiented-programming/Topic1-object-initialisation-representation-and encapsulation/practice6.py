@@ -15,7 +15,7 @@ email=input("enter the email:").strip()
 score=int(input("enter the score:"))
 
 candidate=CandidateProfile(name,email,score)
-
+print("CANDIDATE PROFILE")
 print("Name:",candidate.name)
 print("Email:",candidate.get_email())
 print("Score:",candidate.get_score())
